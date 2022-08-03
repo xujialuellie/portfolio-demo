@@ -11,7 +11,7 @@ const ContactMe = () => {
                     <SocialIcon url='https://twitter.com/xujialu126' />
                 </Col>
                 <Col sm={6} md={3} lg={3} style={{display: 'flex', justifyContent: 'center'}}>
-                    <SocialIcon url='https://www.instagram.com/_elliexu2020/' />
+                    <SocialIcon url='https://www.instagram.com/_chuiklellie/' />
                 </Col>
                 <Col sm={6} md={3} lg={3} style={{display: 'flex', justifyContent: 'center'}}>
                     <SocialIcon url='https://www.linkedin.com/in/xujialuellie/' />
