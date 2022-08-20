@@ -1,10 +1,10 @@
 import React from 'react'
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
-const Header = () => {
+const Header = ({balance}) => {
     return (
         <Navbar bg="dark" expand="lg" sticky="top" variant="dark" className="py-4" collapseOnSelect>
             <Container fluid="md">
-                <Navbar.Brand href="/portfolio" style={{fontSize:"26px", borderRight:"2px solid grey", padding:"0 10px"}}>XU Jialu Ellie</Navbar.Brand>
+                <Navbar.Brand href="/portfolio" style={{fontSize:"26px", borderRight:"2px solid grey", padding:"0 10px"}}>RecycIN</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -12,21 +12,14 @@ const Header = () => {
                         style={{padding: "0 10px"}}
                         navbarScroll
                     >
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#content">Inventory</Nav.Link>
+                        <Nav.Link href="#market">Market</Nav.Link>
+                        <Nav.Link href="#recycle">Recycle</Nav.Link>
                     </Nav>
-                    <Button 
-                        href="#contact" 
-                        className="d-flex" 
-                        variant="outline-success" 
-                        size="md"
-                        style={{margin: "0 10px", maxWidth: "25vw", justifyContent: "center"}}
-                    >
-                        Contact Me
-                    </Button>
                 </Navbar.Collapse>
             </Container>
+            <h6 style={{color:"white"}}>Balance: {balance} ABEL</h6>
         </Navbar>
     );
 };
