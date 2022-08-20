@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 
 const Projects = () => {
     return(
-        <Container fluid id="projects" style={{backgroundColor: "#343a40", padding: "20px"}}>
+        <Container fluid id="projects" style={{backgroundColor: "#343a40", padding: "100px"}}>
             <h1 style={{width: "100%", textAlign: "center", marginBottom: "50px", marginTop: "20px", color: "#dee2e6"}}>Projects</h1>
             <Row style={{justifyContent: "center", alignItems: "center", height: "100%"}}>
                 <Col sm={12} md={6} lg={4}>
@@ -14,7 +14,7 @@ const Projects = () => {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">#Image</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -26,7 +26,7 @@ const Projects = () => {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">#Image</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -38,7 +38,7 @@ const Projects = () => {
                             Some quick example text to build on the card title and make up the bulk of
                             the card's content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">#Image</Button>
                         </Card.Body>
                     </Card>
                 </Col>
